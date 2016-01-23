@@ -1,0 +1,1 @@
+var tag = document.getElementByID("highlight");

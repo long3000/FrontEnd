@@ -1,0 +1,18 @@
+body {
+	background-color:  #232323;
+}
+.sq {
+	width: 30%;
+	background:orange;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.6%;
+}
+#container{
+	max-width: 640px;
+	margin: 0 auto;
+}
+h1 {
+	color: white;
+	text-align: center;
+}
