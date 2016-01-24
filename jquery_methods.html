@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jQuery Methods</title>
+</head>
+<body>
+<h1>jQuery methods Demo page</h1>
+<input type="text" placeholder="Name">
+<ul>
+	<li>Sugar</li>
+	<li>Salt</li>
+	<li>Vinegar</li>
+	<li>Flour</li>
+</ul>
+<p>7 methods commonly used:<br></p>
+<ul>
+	<li>val()</li>
+	<li>text()</li>
+	<li>attr()</li>
+	<li>html()</li>
+	<li>addCLass()</li>
+	<li>removeClass()</li>
+	<li>toggleClass()</li>
+</ul>
+<p>1) We can manipulate title using html()<br></p>
+$("h1").text("I hacked your H1 title")
+<p>2) We can also manipulate the "li" like such<br></p>
+$("li").text("New Text")
+<p>3) We can also manipulate the HTML(similar to innerHTML) like such<br></p>
+$("ul").html("<.li.>New Text</.li><.li>Another text</.li>")
+<p>4) jQuery click() method is a quick and easy way to add a click listener<br></p>
+$("#submit").click(function())
+<p>5) jQuery keypress() method is a quick and easy way to add a key typed listener<br></p>
+$("input").keypress(function(event){
+ if(event.which === 13){
+  alert("You hit Enter");}
+ console.log("Other key");
+})
+<p>5) jQuery on() method is similar to vanilla EventListener<br></p>
+$("h1").on("click",function(){
+ $(this).css("background","purple");
+})
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+</body>
+</html>
