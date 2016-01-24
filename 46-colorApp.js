@@ -17,11 +17,11 @@ function init() {
 }
 
 
-function setupMode() {
-	for(var i = 0; i < modeBtn.length; i++) {
+// function setupMode() {
+// 	for(var i = 0; i < modeBtn.length; i++) {
 
-	}
-}
+// 	}
+// }
 
 function initSquares() {
 	for(var i = 0; i < squares.length; i++) {
